@@ -15,10 +15,29 @@ html, body {
   padding-top: 5px;
 }
 
-#instructions {
+#instructions, #preference {
   font-size: 48pt;
   text-align: center;
   margin: 30px;
+}
+
+#preference a {
+    text-decoration: none;
+}
+
+#preference img {
+  border: 1px solid black;
+  width: 35%;
+  margin: 10px;
+}
+
+#preference-options {
+  display: inline;
+}
+
+
+#preference h5 {
+  font-size: 20pt;
 }
 
 #sidebar img {
