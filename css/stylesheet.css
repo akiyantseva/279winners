@@ -1,0 +1,56 @@
+html, body {
+  margin: 0px;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+#sidebar {
+  width: 9.75%;
+  height: 2000px;
+  background-color: #B3B3B3;
+  border-left: 1px solid black;
+  float: right;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#instructions {
+  font-size: 48pt;
+  text-align: center;
+  margin: 30px;
+}
+
+#sidebar img {
+  padding: 10px;
+  background-color: #878787;
+}
+
+.target-text {
+  font-size: 18pt;
+}
+
+.imagemap {
+  width: 90%;
+}
+
+#next {
+  text-align: center;
+  padding: 10px;
+  margin: 10px 10px 20px 10px;
+  background-color: #B3B3B3;
+  border: 1px solid black;
+  font-size: 30pt;
+  position: fixed;
+  bottom: 0%;
+  left: 38%;
+}
+
+#next a {
+  text-decoration: none;
+  color: black;
+}
+
+#next:hover {
+  background-color: #878787;
+}
